@@ -1,5 +1,4 @@
 var MYAPP = {};
-//Comment
 MYAPP.employee = {
   first_name: "Vikram",
   last_name: "Sridharan",
@@ -15,9 +14,9 @@ MYAPP.employee = {
   }
 };
 MYAPP.employee.increment(10000);
-/*for ( MYAPP.p in MYAPP.employee ) {
+for ( MYAPP.p in MYAPP.employee ) {
   if ( typeof MYAPP.employee[MYAPP.p] !== 'function' ) {
     document.writeln(MYAPP.p + ': ' + MYAPP.employee[MYAPP.p]);
   }
-}*/
+}
 
